@@ -1,0 +1,19 @@
+ul{
+    font-size: 20px;
+}
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: #222222;
+}
+.header-list{
+    display: flex;
+    gap: 100px;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+}
+.sign{
+    width: 400px;
+    height: 40px;
+}
