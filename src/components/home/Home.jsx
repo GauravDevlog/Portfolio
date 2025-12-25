@@ -4,17 +4,17 @@ function Home() {
   return (
     <>
     <div className="home_design">
-      <div className="profile">
-        <img src="../../public/img/profile.png" alt="Profile Img" />
+      <div className="profile1">
+        <img src="../../public/img/profile1.png" alt="Profile Img" className="profile"/>
       </div>
-      <div className="heading">I do code and make content about it!</div>
+      <div className="heading">I build web applications and solve problems</div>
       <div className="para">
-        I am a seasoned full-stack software engineer with over 8 years of
-        professional experience, specializing in backend development. My
-        expertise lies in crafting robust and scalable SaaS-based architectures
-        on the Amazon AWS platform.
+        "I am a passionate developer with a strong logical foundation in Data Structures & Algorithms using C and C++. I apply this problem-solving mindset to build responsive front-ends with React and robust back-end systems using PHP. Currently seeking opportunities to apply my skills and grow as a software engineer."
       </div>
-      <div className="btn"></div>
+      <div className="btn">
+        <button className="btn-get-in-touch">Get In Touch</button>
+        <button className="btn-download-cv">Download CV</button>
+      </div>
     </div>
     </>
   );
