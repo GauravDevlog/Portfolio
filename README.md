@@ -41,7 +41,7 @@ If you want to view or modify the code on your local machine, follow these steps
 
 ```bash
 git clone https://github.com/GauravDevlog/Portfolio.git
-cd your-repo-name
+cd "./Portfolio"
 npm install
 npm run dev
 ```
