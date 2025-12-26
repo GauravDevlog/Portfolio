@@ -40,7 +40,7 @@ If you want to view or modify the code on your local machine, follow these steps
 
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone https://github.com/GauravDevlog/Portfolio.git
 cd your-repo-name
 npm install
 npm run dev
