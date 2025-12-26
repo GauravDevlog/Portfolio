@@ -21,9 +21,9 @@ function Home() {
           className="text-center text-4xl font-bold"
           >Gaurav <span className="text-blue-500">Mishra</span> </h1>
         </div>
-        <div className="heading text-4xl font-bold mb-12">
-          I build <span className="text-blue-500">web applications</span> <br />
-          and <span className="text-blue-500">solve problems</span>
+        <div className="heading text-5xl font-bold mb-12">
+          I build <span className="text-blue-500">Web Applications</span> <br />
+          and <span className="text-blue-500">Solve Problems</span>
         </div>
         <div className="para">
           "I am a passionate developer with a strong logical foundation in Data

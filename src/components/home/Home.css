@@ -2,7 +2,7 @@
     width: 50vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     margin: 10vh auto;
 }
@@ -10,19 +10,21 @@
     margin-bottom: 30px;
 }
 .profile{
-  width: 200px;        
-  height: 200px;       
+  width: 150px;        
+  height: 150px;       
   border-radius: 50%;  
   object-fit: cover;   
+  display: flex;
+  justify-self: center;
 }
 .heading{
-    width: 30vw;
-    font-size: 3em;
+    width: 40vw;
+    /* font-size: 3em; */
     text-align: center;
 }
 .para{
-    margin-top: 30px;
-    width: 40vw;
+    /* margin-top: 10px; */
+    width: 60vw;
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 30px;
