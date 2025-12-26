@@ -1,0 +1,37 @@
+/* Container Spacing */
+.projects-section {
+  padding: 5rem 2rem;
+  background-color: #000; /* Ensures background stays dark */
+  color: white;
+  text-align: center;
+}
+
+/* Typography */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  /* color: blue-; Neon Pink */
+}
+
+.section-subtitle {
+  color: #9ca3af; /* Gray text */
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+/* --- THE RESPONSIVE GRID --- */
+.projects-grid {
+  display: grid;
+  /* This one line handles responsiveness automatically: */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  
+  /* Constraints */
+  max-width: 1200px;
+  margin: 0 auto; /* Centers the grid on the screen */
+  padding: 0 1rem;
+}

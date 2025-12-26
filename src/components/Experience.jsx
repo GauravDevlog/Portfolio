@@ -31,7 +31,7 @@ const Experience = () => {
             <div key={index} className="flex flex-col md:flex-row gap-6 border-l-2 border-blue-500 pl-6 relative">
               
               {/* Optional: A glowing dot on the timeline */}
-              <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-500 shadow-[0_0_10px_#ec4899]"></div>
+              <div className="absolute -left-2.25 top-0 w-4 h-4 rounded-full bg-blue-500 shadow-[0_0_10px_#ec4899]"></div>
 
               {/* Left Side: Company & Date */}
               <div className="md:w-1/3">

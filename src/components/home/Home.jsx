@@ -13,7 +13,7 @@ function Home() {
       <div className="home_design">
         <div className="profile1">
           <img
-            src="../../public/img/profile1.png"
+            src="../../public/img/gauravImg.jpeg"
             alt="Profile Img"
             className="profile"
           />
