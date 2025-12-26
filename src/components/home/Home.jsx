@@ -54,12 +54,12 @@ function Home() {
         >Pro<span className="text-blue-500">jects</span> </h3>
         <div className="project_card">
           <ProjectCard
-            url="../../public/img/spotify.png"
+            url="img/spotify.png"
             title="Spotify Clone"
             link="https://github.com/GauravDevlog/Spotify-Clone"
             />
           <ProjectCard
-            url="../../public/img/restaurant.png"
+            url="img/restaurant.png"
             title="Restaurant"
             link="https://github.com/GauravDevlog/Restaurant"
             />

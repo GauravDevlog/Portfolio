@@ -5,23 +5,23 @@ import "./Projects.css";
 // 1. Add your projects here
 const projectList = [
   {
-    image: "../../public/img/spotify.png",
+    image: "img/spotify.png",
     title: "Spotify Clone",
     link: "https://github.com/GauravDevlog/Spotify-Clone",
   },
   {
     title: "Job Portal",
-    image: "../../public/img/job.png",
+    image: "img/job.png",
     link: "https://github.com/GauravDevlog/Job-Portal",
   },
   {
     title: "Portfolio Website",
-    image: "../../public/img/porfolio.png",
+    image: "img/porfolio.png",
     link: "https://github.com/GauravDevlog/Portfolio",
   },
   {
     title: "Weather App",
-    image: "../../public/img/weather.png",
+    image: "img/weather.png",
     link: "https://github.com/GauravDevlog/Weather-APP",
   },
   // You can easily add more objects here later!
