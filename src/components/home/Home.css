@@ -6,6 +6,9 @@
     align-items: center;
     margin: 10vh auto;
 }
+.home_design h1{
+    margin-bottom: 30px;
+}
 .profile{
   width: 200px;        
   height: 200px;       
@@ -30,7 +33,7 @@
     gap: 30px;
     /* flex-direction: row; */
 }
-.btn-get-in-touch , .btn-download-cv{
+.btn-get-in-touch , .btn-download-cv, .more_projects{
     width: 13vw;
     height: 7vh;
     font-size: 1.3em;
@@ -47,6 +50,14 @@
     border-radius: 20px;
     border: 2px solid white;
 }
+.more_projects{
+    background-color: #000000;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 60px;
+    cursor: pointer;
+}
 .project_cards{
     width: 60vw;
     margin: 10vh auto;
@@ -55,7 +66,7 @@
 .project_cards h3{
     font-size: 2rem;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 .project_card{
     width: 60vw;

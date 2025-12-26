@@ -1,19 +1,22 @@
 import React from "react";
 import "./Header.css"
+import { Link } from "react-router-dom";
 export default function Header(){
 
     return(
         <>
         <div className="header">
             <div className="sign">
-                {/* <img src="../../public/img/gaurav.png" alt="" /> */}
                 Gaurav Mishra
             </div>
             <ul className="header-list">
-                <li>Home</li>
-                <li>Projects</li>
-                <li>Experience</li>
-                <li>Contact</li>
+                <li>
+                    <Link to="/">
+                    Home
+                    </Link></li>
+                <li><Link to="/projects">Projects</Link></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
         </>

@@ -13,7 +13,11 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 bg-black text-white">
+    <section id="experience" className="py-20 bg-[#141414] text-white
+    
+     rounded-xl border
+    border-[#141414] hover:border-blue-500 hover:bg-[#1a1a1a] transition-all duration-300 transform hover:-translate-y-2
+    ">
       <div className="container mx-auto px-6 max-w-4xl">
         
         {/* Section Heading */}
