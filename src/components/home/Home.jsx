@@ -1,5 +1,7 @@
 import React from "react";
+import ProjectCard from "../project/Project Card"
 import "./Home.css"
+import Skills from "../Skills";
 function Home() {
   return (
     <>
@@ -14,6 +16,24 @@ function Home() {
       <div className="btn">
         <button className="btn-get-in-touch">Get In Touch</button>
         <button className="btn-download-cv">Download CV</button>
+      </div>
+    </div>
+    <div>
+      <Skills/>
+    </div>
+    <div className="project_cards">
+      <h3>Projects</h3>
+      <div className="project_card">
+        <ProjectCard 
+      url="../../public/img/profile1.png"
+      title = "Restaurant Website"
+      link="https://www.freepik.com/free-vector/realistic-credit-card-design_19058367.htm"
+      />
+      <ProjectCard 
+      url="../../public/img/profile1.png"
+      title = "Restaurant Website"
+      link="https://www.freepik.com/free-vector/realistic-credit-card-design_19058367.htm"
+      />
       </div>
     </div>
     </>

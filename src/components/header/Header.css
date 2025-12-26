@@ -1,10 +1,13 @@
-ul{
-    font-size: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Style+Script&display=swap');
 .header{
     width: 100vw;
     height: 10vh;
     background-color: #222222;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+    /* font-size: 1.3rem; */
 }
 .header-list{
     display: flex;
@@ -14,6 +17,9 @@ ul{
     color: white;
 }
 .sign{
-    width: 400px;
-    height: 40px;
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+  left: 100px;
 }

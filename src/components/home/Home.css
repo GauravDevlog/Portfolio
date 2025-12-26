@@ -47,3 +47,23 @@
     border-radius: 20px;
     border: 2px solid white;
 }
+.project_cards{
+    width: 60vw;
+    margin: 10vh auto;
+    text-align: center;
+}
+.project_cards h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.project_card{
+    width: 60vw;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: 10vh auto; */
+    /* background-color: yellow; */
+}

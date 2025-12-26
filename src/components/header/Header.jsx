@@ -6,7 +6,8 @@ export default function Header(){
         <>
         <div className="header">
             <div className="sign">
-                <img src="../../public/img/gaurav.png" alt="" />
+                {/* <img src="../../public/img/gaurav.png" alt="" /> */}
+                Gaurav Mishra
             </div>
             <ul className="header-list">
                 <li>Home</li>
